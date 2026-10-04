@@ -313,3 +313,34 @@ form button {
 form button :hover{
     background-color: #3c91ca;
 }
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .inicio {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .apresentacao h1 {
+        text-align: center;
+    }
+
+    .cartoes {
+        flex-direction: column;
+    }
+
+    .cartao {
+        width: auto;
+    }
+
+    form {
+        width: auto;
+    }
+
+}
